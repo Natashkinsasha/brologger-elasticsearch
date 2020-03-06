@@ -1,6 +1,6 @@
 {
   "name": "brologger-elasticsearch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -15,7 +15,7 @@
     "typescript": "^3.6.4"
   },
   "deepDependencies": {
-    "brologger": "^0.2.0",
+    "brologger": "^0.2.2",
     "elasticsearch": "^16.5.0"
   },
   "keywords": [
