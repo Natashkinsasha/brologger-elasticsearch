@@ -1,6 +1,6 @@
 {
   "name": "brologger-elasticsearch",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -14,12 +14,13 @@
     "rimraf": "^3.0.0",
     "typescript": "^3.6.4"
   },
-  "deepDependencies": {
-    "brologger": "^0.2.2",
+  "peerDependencies": {
+    "brologger": "^0.5.3",
     "elasticsearch": "^16.5.0"
   },
   "keywords": [
     "log",
-    "logger"
+    "logger",
+    "transport"
   ]
 }

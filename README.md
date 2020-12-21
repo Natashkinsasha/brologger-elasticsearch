@@ -1,6 +1,6 @@
-# brologer
+# brologger-elasticsearch
 
-A simple logging library
+Slack transport for simple logging library
 
 # Installation
 
@@ -23,6 +23,7 @@ This library is quite fresh, and maybe has bugs. Write me an **email** to *natas
 ```javascript
     import Loger from 'brolloger';
     import ESTransport from 'brologger-elasticsearch';
+    import * as elasticsearch from 'elasticsearch';
 
     const client = new elasticsearch.Client({
         host: "URL",
